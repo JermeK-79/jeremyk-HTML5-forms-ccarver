@@ -49,6 +49,7 @@
                     <div class="col-md-3">
                         <label for="state" class="form-label">State</label>
                         <select class="form-select" id="state" name="state">
+                            <option value="">--Select a State--</option>
                             <option value="Alabama">Alabama</option>
                             <option value="Alaska">Alaska</option>
                             <option value="Arizona">Arizona</option>
@@ -56,40 +57,49 @@
                             <option value="California">California</option>
                             <option value="Colorado">Colorado</option>
                             <option value="Connecticut">Connecticut</option>
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
-<option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
-<option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
-<option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
-<option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
-<option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
-<option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
-<option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
-<option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
-<option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
-<option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
-                            
+                            <option value="Delaware">Delaware</option>
+                            <option value="Florida">Florida</option>
+                            <option value="Geogria">Geogria</option>
+                            <option value="Hawaii">Hawaii</option>
+                            <option value="Idaho">Idaho</option>
+                            <option value="Illinois">Illinois</option>
+                            <option value="Indiana">Indiana</option>
+                            <option value="Iowa">Iowa</option>
+                            <option value="Kansas">Kansas</option>
+                            <option value="Kentucky">Kentucky</option>
+                            <option value="Louisiana">Louisiana</option>
+                            <option value="Maine">Maine</option>
+                            <option value="Maryland">Maryland</option>
+                            <option value="Massachusetts">Massachusetts</option>
+                            <option value="Michigan">Michigan</option>
+                            <option value="Minnesota">Minnesota</option>
+                            <option value="Mississippi">Mississippi</option>
+                            <option value="Missouri">Missouri</option>
+                            <option value="Montana">Montana</option>
+                            <option value="Nebraska">Nebraska</option>
+                            <option value="Neveda">Neveda</option>
+                            <option value="New Hampshire">New Hampshire</option>
+                            <option value="New Jersey">New Jersey</option>
+                            <option value="New Mexico">New Mexico</option>
+                            <option value="New York">New York</option>
+                            <option value="North Carolina">North Carolina</option>
+                            <option value="North Dakota">North Dakota</option>
+                            <option value="Ohio">Ohio</option>
+                            <option value="Oklahoma">Oklahoma</option>
+                            <option value="Oregon">Oregon</option>
+                            <option value="Pennsylvania">Pennsylvania</option>
+                            <option value="Rhode Island">Rhode Island</option>
+                            <option value="South Carolina">South Carolina</option>
+                            <option value="South Dakota">South</option>
+                            <option value="Tennessee">Tennessee</option>
+                            <option value="Texas">Texas</option>
+                            <option value="Utah">Utah</option>
+                            <option value="Vermont">Vermont</option>
+                            <option value="Virginia">Virginia</option>
+                            <option value="Washington">Washington</option>
+                            <option value="West Virginia">West Virginia</option>
+                            <option value="Wisconsin">Wisconsin</option>
+                            <option value="Wyoming">Wyoming</option>
                         </select>
                     </div>
                     <div class="col-md-3">
@@ -97,11 +107,57 @@
                         <input type="text" class="form-control" id="postalcode">
                     </div>
                 </div>
-
+                <div class="row">
+                    <div class="col-md-4"> 
+                        <p>We accept:</p>
+                        <div class="cards-logos btn-secondary h-40">                       
+                        
+                        <div class="form-check form-check-inline ms-2 mt-2">
+                            <input class="form-check-input" type="radio" name="mastercard" id="mastercard" value="option1">
+                            <label class="form-check-label" for="mastercard">
+                                <img class="mastercard-logo " src="https://i.pinimg.com/474x/bf/d2/d1/bfd2d12f5c50cb84f343075afd9a2b12.jpg" width="40" height="30" d-auto >
+                            
+                            </label>
+                            </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="visa" id="visa" value="option2">
+                            <label class="form-check-label" for="visa">
+                                <img class="visa-logo " src="https://img.icons8.com/ios7/512/visa.png" width="40" height="30" ">
+                            
+                            </label>
+                            </div>
+                        <div class="form-chck form-check-inline">
+                            <input class="form-check-input" type="radio" name="discover" id="discover" value="option3">
+                            <label class="form-check-label" for="discover">
+                                <img class="mastercard-logo " src="https://www.discoversignage.com/uploads/DGN_AcceptanceMark_1C_Hrz_CMYK.jpg" width="40" height="30" d-auto >
+                                </label>
+                            </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="americaexpress" id="americaexpress" value="option4">
+                            <label class="form-check-label" for="americaexpress">
+                                <img class="mastercard-logo " src="https://logoeps.com/wp-content/uploads/2014/04/22164-amex-logo-icon-vector-icon-vector-eps.png" width="40" height="40" d-auto >
+                            </label>
+                        </div>
+                        </div> 
+                    </div>
+                    
+                    <div class="col-md-2"></div>
+                    <div class="col-md-6">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" name="messafe" rows="4"></textarea>
+                        <p style="color: grey;">Add any notes here.</p>
+                    </div>
+                </div>
 
 
         
             </form>
+           
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button class="btn btn-secondary me-md-2" type="button">Cancel</button>
+                    <button class="btn btn-primary" type="button">Send</button>
+                </div>
+           
         </div>    
     </div>
 
